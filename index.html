@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ぽん吉AR</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; font-family: sans-serif; text-align: center; }
+    model-viewer { width: 100%; height: 80vh; }
+  </style>
+</head>
+<body>
+  <model-viewer src="ponkichi.glb" ar ar-modes="webxr scene-viewer quick-look"
+    camera-controls auto-rotate>
+  </model-viewer>
+  <p>右下のボタンを押すと、カメラでぽん吉を置けます</p>
+</body>
+</html>
